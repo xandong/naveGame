@@ -1,0 +1,49 @@
+#player {
+  width: 256px;
+  height: 66px;
+  position: absolute;
+  left: 80px;
+  top: 179px;
+  background-image: url(../img/player.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+
+#refem {
+  width: 48.4px;
+  height: 56.1px;
+  position: absolute;
+  left: 80px;
+  bottom: 80px;
+  background-image: url(../img/refem.png);
+}
+
+#inimigo1 {
+  width: 256px;
+  height: 66px;
+  position: absolute;
+  right: 160px;
+  top: 240px;
+  background-image: url(../img/inimigo1.png);
+}
+
+#inimigo2 {
+  width: 165px;
+  height: 70px;
+  position: absolute;
+  right: 80px;
+  bottom: 80px;
+  background-image: url(../img/inimigo2.png);
+}
+
+#inicio {
+  width: 350px;
+  height: 200px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  text-align: center;
+  padding: 10px;
+}

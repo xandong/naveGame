@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Fortnite;
+  src: url(../font/Fortnite\ -\ Burbank\ Big\ Condensed\ Black.ttf);
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-size: 5em;
+}
+p {
+  padding: 4px;
+}
+.flex {
+  display: flex;
+}
+.center-center {
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-family: Fortnite;
+}
+.btn-start {
+  background-color: whitesmoke;
+  margin: 16px;
+  padding: 8px 24px;
+  border-radius: 8px;
+  border: none;
+
+  font-size: 1.2em;
+  font-weight: 600;
+
+  transition: ease-in 0.2s;
+  cursor: pointer;
+}
+.btn-start:hover {
+  background-color: #9a0018;
+  color: whitesmoke;
+}
+
+#dica-mobile {
+  position: absolute;
+  bottom: 10px;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: whitesmoke;
+  border-radius: 8px;
+
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+@media (min-width: 550px) {
+  #dica-mobile {
+    display: none;
+  }
+}

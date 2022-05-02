@@ -1,0 +1,15 @@
+main {
+  position: relative;
+  max-width: 95%;
+  width: 600px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: whitesmoke;
+  padding: 24px;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.6);
+}
+p.dialogo {
+  text-align: start;
+  text-indent: 24px;
+}
